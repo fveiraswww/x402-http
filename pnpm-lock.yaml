@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@xmcp-dev/x402':
         specifier: ^0.1.0
-        version: 0.1.0(xmcp@file:../xmcp/packages/xmcp(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5))
+        version: 0.1.0(xmcp@0.5.9(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5))
       xmcp:
-        specifier: file:../xmcp/packages/xmcp
-        version: file:../xmcp/packages/xmcp(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5)
+        specifier: ^0.5.9
+        version: 0.5.9(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5)
       zod:
         specifier: ^4.0.0
         version: 4.3.5
@@ -189,7 +189,6 @@ packages:
 
   '@xmcp-dev/x402@0.1.0':
     resolution: {integrity: sha512-JOc9ER95DGkRSPrk1OBjwYqO2MmZzeCVJW4KIMMNmD8qgE1Yz3BrT7lmez5hhh6kx7X4YBwnVDX2U/s3prG7oA==}
-    version: 0.1.0
     peerDependencies:
       xmcp: ^0.5.8
 
@@ -740,8 +739,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  xmcp@file:../xmcp/packages/xmcp:
-    resolution: {directory: ../xmcp/packages/xmcp, type: directory}
+  xmcp@0.5.9:
+    resolution: {integrity: sha512-sn9AprQwijQ5fHCxMZxIglPYBZ+R0fjhu6Sjevzn9ZDIFqx02jWEPKEeKcoFyuhXYaYeMnqpgZhxJ1Umdve8TA==}
     hasBin: true
     peerDependencies:
       react: '>=19.0.0'
@@ -950,10 +949,10 @@ snapshots:
     dependencies:
       zod: 3.25.76
 
-  '@xmcp-dev/x402@0.1.0(xmcp@file:../xmcp/packages/xmcp(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5))':
+  '@xmcp-dev/x402@0.1.0(xmcp@0.5.9(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5))':
     dependencies:
       '@x402/core': 2.2.0
-      xmcp: file:../xmcp/packages/xmcp(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5)
+      xmcp: 0.5.9(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5)
       zod: 3.25.76
 
   accepts@2.0.0:
@@ -1498,7 +1497,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  xmcp@file:../xmcp/packages/xmcp(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5):
+  xmcp@0.5.9(hono@4.11.4)(postcss@8.5.6)(zod@4.3.5):
     dependencies:
       '@modelcontextprotocol/sdk': 1.25.2(hono@4.11.4)(zod@4.3.5)
       '@rspack/core': 1.7.2
