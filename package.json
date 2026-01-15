@@ -1,0 +1,21 @@
+{
+  "name": "paid-http-tool",
+  "version": "0.1.0",
+  "description": "An xmcp application with tool syntax",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "xmcp build",
+    "dev": "xmcp dev",
+    "start": "node dist/http.js"
+  },
+  "dependencies": {
+    "@xmcp-dev/x402": "^0.1.0",
+    "xmcp": "file:../xmcp/packages/xmcp",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9"
+  }
+}

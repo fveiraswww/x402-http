@@ -1,0 +1,6 @@
+{
+  "handler": "index.js",
+  "runtime": "nodejs22.x",
+  "launcherType": "Nodejs",
+  "shouldAddHelpers": true
+}

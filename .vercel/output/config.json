@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "^/auth/assets/(.*)$",
+      "dest": "/auth/assets/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "^/auth/(sign-in|callback/.*|index\\.html)?$",
+      "dest": "/auth/index.html"
+    },
+    {
+      "src": "^/(.*)$",
+      "dest": "/api"
+    }
+  ]
+}
